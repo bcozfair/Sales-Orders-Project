@@ -14,7 +14,7 @@
             <div class="alert alert-warning text-center">No products found.</div>
         @else
             <div class="table-responsive">
-                <table class="table table-striped shadow-sm table-hover">
+                <table class="table table-striped shadow-sm table-hover bg-light">
                     <thead class="bg-dark text-light">
                         <tr>
                             <th>Image</th>

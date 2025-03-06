@@ -50,7 +50,7 @@
         @if ($orders->isEmpty())
             <p>No orders found.</p>
         @else
-            <table class="table table-bordered">
+            <table class="table table-bordered bg-light">
                 <thead class="table-dark">
                     <tr>
                         <th>Order No.</th>

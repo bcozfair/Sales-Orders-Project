@@ -34,11 +34,18 @@
 
     <style>
         /* Sidebar Styling */
+
+        body {
+            font-family: 'Figtree', sans-serif;
+            background: linear-gradient(135deg, #fffdfd, #ffe6e6);            
+        }
+
         .sidebar {
             width: 250px;
-            background: linear-gradient(135deg, #1c1c2e, #2a2a3a);
+            background: linear-gradient(135deg, #d13d42, #fad0c4);
             box-shadow: 2px 0 10px rgba(0, 0, 0, 0.3);
             transition: width 0.3s ease-in-out;
+            
         }
 
         /* Avatar Styling */
@@ -90,14 +97,15 @@
         .menu-item:hover {
             background: rgba(255, 255, 255, 0.1);
             transform: translateX(5px);
-            color: #ffcc00;
+            color: #000000;
         }
 
         /* Active Menu */
         .menu-item.active {
             background: rgba(255, 255, 255, 0.2);
             box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.3);
-            border-left: 4px solid #ffcc00;
+            border-left: 4px solid #b51016;
+            color: #b51016;            
         }
 
         /* Logout Button */
